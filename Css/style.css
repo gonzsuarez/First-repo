@@ -14,22 +14,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-header {
+.cabecera {
   background-color: rgb(77, 77, 112);
   display: flex;
   padding: 5px;
   margin: 0;
 }
-header img {
+.cabecera img {
   width: 7rem;
 }
-header nav ul {
+.cabecera nav ul {
   list-style: none;
 }
-header nav ul li {
+.cabecera nav ul li {
   margin: 3px;
 }
-header nav ul li a {
+.cabecera nav ul li a {
   color: aqua;
   background-color: rgb(218, 65, 19);
   text-decoration: none;
