@@ -1,22 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 header {
   background-color: rgb(77, 77, 112);
   display: flex;
   padding: 5px;
+  margin: 0;
 }
 header img {
   width: 7rem;
 }
-header ul {
+header nav ul {
   list-style: none;
-  display: flex;
 }
-header ul li {
+header nav ul li {
   margin: 3px;
 }
-header ul li a {
+header nav ul li a {
   color: aqua;
   background-color: rgb(218, 65, 19);
   text-decoration: none;
@@ -24,6 +37,11 @@ header ul li a {
   font-family: "Bebas Neue", sans-serif;
   padding: 1px;
   border-radius: 5px;
+}
+
+a:hover {
+  color: rgb(218, 65, 19);
+  background-color: aqua;
 }
 
 * {
@@ -42,7 +60,6 @@ h1 {
   border: 2px dotted red;
   justify-content: center;
   font-family: "Zen Tokyo Zoo", cursive;
-  font-size: smaller;
 }
 
 footer {
@@ -52,6 +69,51 @@ footer {
   font-weight: 400;
   text-align: center;
   font-family: "Zen Tokyo Zoo", cursive;
+}
+
+h2 {
+  background-color: rgb(245, 245, 241);
+  font-family: "Bebas Neue", sans-serif;
+}
+h2 p {
+  color: rgb(2, 53, 2);
+}
+
+h6 img {
+  width: 2rem;
+  position: absolute;
+  z-index: 1;
+  right: end;
+  bottom: end;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
+.card-empresa {
+  background-color: rgb(77, 77, 112);
+}
+.card-empresa .card-body {
+  background-color: rgb(77, 77, 112);
+  font-family: "Bebas Neue", sans-serif;
+  color: rgba(0, 255, 255, 0.63);
+}
+.card-empresa .card-body .card-title {
+  font-weight: bolder;
+}
+
+.Items-en-vta {
+  background-image: url(../Imagrn/pasillo-de-un-supermercado_96b081e3_1280x720.jpg);
+  display: flex;
+}
+.Items-en-vta ul {
+  justify-content: space-between;
+}
+.Items-en-vta ul li {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@import "variables.scss";
+.card-empresa{
+    background-color: $color-principal;
+    .card-body{
+        background-color: $color-principal;
+        font-family: $fuente-secu;
+        color: rgba(0, 255, 255, 0.63);
+        .card-title{
+            font-weight: bolder;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.Items-en-vta{
+    background-image: url(../Imagrn/pasillo-de-un-supermercado_96b081e3_1280x720.jpg);
+    display: flex;
+    ul{
+        justify-content: space-between;
+         li{
+          color: #ffffff;  
+          text-decoration: underline;
+        } 
+
+    }
+        
+}

@@ -1,5 +1,6 @@
+@import "variables.scss";
 footer {
-    color: rgb(218, 65, 19);
+    color: $color-fuente;
     background-color: rgb(77, 77, 112);
     text-decoration-line: underline;
     font-weight: 400;

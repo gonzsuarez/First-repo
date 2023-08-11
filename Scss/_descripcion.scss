@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+h2{
+    background-color: $color-secu;
+    font-family: $fuente-secu;
+    p{
+        color: $color-fuente-secu;
+    }
+}

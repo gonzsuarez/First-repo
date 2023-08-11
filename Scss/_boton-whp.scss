@@ -1,0 +1,13 @@
+h6{
+    img{
+        width: 2rem;
+        position: absolute;
+        z-index: 1;
+        right: end;
+        bottom: end;
+        transition: all 1s;
+    }
+}
+img:hover{
+    transform: rotate(360deg);
+}

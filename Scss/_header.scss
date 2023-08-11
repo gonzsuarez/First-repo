@@ -1,27 +1,29 @@
 @import "variables.scss";
-
 header{
     background-color: $color-principal;
     display: flex;
     padding: 5px;
-
+    margin: 0;
     img{
         width: 7rem;
     }
-    ul{
+    nav ul{
         list-style: none;
-        display: flex;
         li{
             margin: 3px;
             a{
                 color: aqua;
-                background-color: rgb(218, 65, 19);
+                background-color: $color-fuente;
                 text-decoration: none;
                 font-weight: 200;
-                font-family: 'Bebas Neue', sans-serif;
+                font-family: $fuente-secu;
                 padding: 1px;
                 border-radius: 5px;
             }
         }
+      }
     }
-    }
+a:hover{
+    color: $color-fuente;
+    background-color: aqua;
+        }
