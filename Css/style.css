@@ -14,37 +14,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-.cabecera {
-  background-color: rgb(77, 77, 112);
-  display: flex;
-  padding: 5px;
-  margin: 0;
+@media (max-width: 768px) {
+  .cabecera {
+    background-color: rgb(77, 77, 112);
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+  }
+  .cabecera img {
+    width: 3rem;
+  }
+  .cabecera nav ul {
+    list-style: none;
+  }
+  .cabecera nav ul li {
+    margin: 30px;
+  }
+  .cabecera nav ul li a {
+    color: aqua;
+    background-color: rgb(218, 65, 19);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .cabecera a:hover {
+    background-color: aqua;
+    color: rgb(218, 65, 19);
+  }
 }
-.cabecera img {
-  width: 10rem;
+@media (min-width: 768px) {
+  .cabecera {
+    background-color: rgb(77, 77, 112);
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .cabecera img {
+    width: 10rem;
+  }
+  .cabecera nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cabecera nav ul li {
+    margin: 30px;
+  }
+  .cabecera nav ul li a {
+    color: aqua;
+    background-color: rgb(218, 65, 19);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .cabecera a:hover {
+    background-color: aqua;
+    color: rgb(218, 65, 19);
+  }
 }
-.cabecera nav ul {
-  list-style: none;
-  display: flex;
-}
-.cabecera nav ul li {
-  margin: 10px;
-}
-.cabecera nav ul li a {
-  color: aqua;
-  background-color: rgb(218, 65, 19);
-  text-decoration: none;
-  font-weight: 500;
-  font-family: "Bebas Neue", sans-serif;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.cabecera a:hover {
-  background-color: aqua;
-  color: rgb(218, 65, 19);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +119,6 @@ h6 img {
   z-index: 1;
   right: end;
   bottom: end;
-  transition: all 1s;
 }
 
 img:hover {

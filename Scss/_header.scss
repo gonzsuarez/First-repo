@@ -1,9 +1,53 @@
 @import "variables.scss";
+@media (max-width: 768px) {
+    
+
 .cabecera{
     background-color: $color-principal;
     display: flex;
     padding: 5px;
     margin: 0;
+    justify-content: center;
+    img{
+        width: 3rem;
+    }
+    nav {
+        
+        ul{
+        list-style: none;
+     
+        
+        li{
+            margin: 30px;
+            
+            a{
+                color: aqua;
+                background-color: $color-fuente;
+                text-decoration: none;
+                font-weight: 500;
+                font-family: $fuente-secu;
+                padding: 10px;
+                border-radius: 5px;
+            }
+        }
+      }
+    }
+   
+}
+.cabecera a:hover{
+    background-color: aqua;
+    color: $color-fuente;
+}
+
+}
+
+@media (min-width: 768px) {
+.cabecera{
+    background-color: $color-principal;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: space-around;
     img{
         width: 10rem;
     }
@@ -12,9 +56,10 @@
         ul{
         list-style: none;
         display: flex;
+        justify-content: space-between;
         
         li{
-            margin: 10px;
+            margin: 30px;
             
             a{
                 color: aqua;
@@ -33,4 +78,7 @@
 .cabecera a:hover{
     background-color: aqua;
     color: $color-fuente;
+}
+
+    
 }
