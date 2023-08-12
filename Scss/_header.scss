@@ -5,25 +5,32 @@
     padding: 5px;
     margin: 0;
     img{
-        width: 7rem;
+        width: 10rem;
     }
-    nav ul{
+    nav {
+        
+        ul{
         list-style: none;
+        display: flex;
+        
         li{
-            margin: 3px;
+            margin: 10px;
+            
             a{
                 color: aqua;
                 background-color: $color-fuente;
                 text-decoration: none;
-                font-weight: 200;
+                font-weight: 500;
                 font-family: $fuente-secu;
-                padding: 1px;
+                padding: 10px;
                 border-radius: 5px;
             }
         }
       }
     }
-a:hover{
-    color: $color-fuente;
+}
+
+.cabecera a:hover{
     background-color: aqua;
-        }
+    color: $color-fuente;
+}

@@ -21,27 +21,28 @@
   margin: 0;
 }
 .cabecera img {
-  width: 7rem;
+  width: 10rem;
 }
 .cabecera nav ul {
   list-style: none;
+  display: flex;
 }
 .cabecera nav ul li {
-  margin: 3px;
+  margin: 10px;
 }
 .cabecera nav ul li a {
   color: aqua;
   background-color: rgb(218, 65, 19);
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 500;
   font-family: "Bebas Neue", sans-serif;
-  padding: 1px;
+  padding: 10px;
   border-radius: 5px;
 }
 
-a:hover {
-  color: rgb(218, 65, 19);
+.cabecera a:hover {
   background-color: aqua;
+  color: rgb(218, 65, 19);
 }
 
 * {
