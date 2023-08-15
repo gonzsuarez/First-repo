@@ -8,6 +8,7 @@
     padding: 5px;
     margin: 0;
     justify-content: center;
+    position: sticky;
     img{
         width: 3rem;
     }
@@ -29,15 +30,16 @@
                 padding: 10px;
                 border-radius: 5px;
             }
+            &a:hover{
+                background-color: aqua;
+                color: $color-fuente;
+            }
         }
       }
     }
    
 }
-.cabecera a:hover{
-    background-color: aqua;
-    color: $color-fuente;
-}
+
 
 }
 

@@ -1,13 +1,22 @@
 h6{
-    img{
-        width: 2rem;
+    a{
         position: absolute;
-        z-index: 1;
-        right: end;
-        bottom: end;
+        display: grid;
         
+        z-index: 1;
+        
+        transition: all 1s;
+
+        &a:hover{
+            transform: rotate(360deg);
+        }
+        img{
+            width: 2rem;
+           
+        }
+        
+    
+    
     }
-}
-img:hover{
-    transform: rotate(360deg);
+    
 }
