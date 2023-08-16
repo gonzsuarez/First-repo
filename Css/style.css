@@ -18,7 +18,7 @@
   .cabecera {
     background-color: rgb(77, 77, 112);
     display: flex;
-    padding: 5px;
+    padding: 4px;
     margin: 0;
     justify-content: center;
     position: sticky;
@@ -53,6 +53,7 @@
     padding: 5px;
     margin: 0;
     justify-content: space-around;
+    position: sticky;
   }
   .cabecera img {
     width: 10rem;
@@ -60,21 +61,22 @@
   .cabecera nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
   }
   .cabecera nav ul li {
-    margin: 30px;
+    margin: 70px;
+    justify-content: center;
   }
   .cabecera nav ul li a {
     color: aqua;
     background-color: rgb(218, 65, 19);
     text-decoration: none;
-    font-weight: 500;
+    font-size: x-large;
+    font-weight: 800;
     font-family: "Bebas Neue", sans-serif;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
   }
-  .cabecera a:hover {
+  .cabecera nav ul li a:hover {
     background-color: aqua;
     color: rgb(218, 65, 19);
   }
@@ -100,10 +102,11 @@ h1 {
 footer {
   color: rgb(218, 65, 19);
   background-color: rgb(77, 77, 112);
-  text-decoration-line: underline;
-  font-weight: 400;
-  text-align: center;
-  font-family: "Zen Tokyo Zoo", cursive;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 3rem;
 }
 
 h2 {
@@ -115,30 +118,47 @@ h2 p {
 }
 
 h6 a {
-  position: absolute;
-  display: grid;
+  display: flex;
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
   z-index: 1;
   transition: all 1s;
 }
-h6 aa:hover {
+h6 a:hover {
   transform: rotate(360deg);
 }
-h6 a img {
-  width: 2rem;
+h6 img {
+  width: 3rem;
 }
 
-.card-empresa {
-  background-color: rgb(77, 77, 112);
+@media (min-width: 768px) {
+  .card-empresa {
+    background-color: rgb(77, 77, 112);
+    display: flex;
+    margin: 10px;
+  }
+  .card-empresa .card {
+    margin: 0.5rem;
+  }
+  .card-empresa .card .card-body {
+    background-color: rgb(77, 77, 112);
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+  }
+  .card-empresa .card .card-body .card-title {
+    text-decoration: underline;
+    background-color: rgb(218, 65, 19);
+  }
+  .card-empresa .card .card-body .card-title .card-text {
+    background-color: aqua !important;
+  }
 }
-.card-empresa .card-body {
-  background-color: rgb(77, 77, 112);
-  font-family: "Bebas Neue", sans-serif;
-  color: rgba(0, 255, 255, 0.63);
+@media (max-width: 768px) {
+  .card {
+    width: 19rem;
+  }
 }
-.card-empresa .card-body .card-title {
-  font-weight: bolder;
-}
-
 .Items-en-vta {
   background-image: url(../Imagrn/pasillo-de-un-supermercado_96b081e3_1280x720.jpg);
   display: flex;
@@ -149,6 +169,14 @@ h6 a img {
 .Items-en-vta ul li {
   color: #ffffff;
   text-decoration: underline;
+}
+
+h4 {
+  display: block;
+  background-image: url(../Imagrn/cabecera-carne-vacuna-argentina.jpg);
+  background-size: cover;
+  background-position: center center;
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,23 +5,19 @@
 .cabecera{
     background-color: $color-principal;
     display: flex;
-    padding: 5px;
+    padding: 4px;
     margin: 0;
     justify-content: center;
     position: sticky;
     img{
         width: 3rem;
     }
-    nav {
-        
-        ul{
+    nav{
+       ul{
         list-style: none;
-     
-        
         li{
             margin: 30px;
-            
-            a{
+           a{
                 color: aqua;
                 background-color: $color-fuente;
                 text-decoration: none;
@@ -37,10 +33,7 @@
         }
       }
     }
-   
-}
-
-
+  }
 }
 
 @media (min-width: 768px) {
@@ -50,37 +43,33 @@
     padding: 5px;
     margin: 0;
     justify-content: space-around;
+    position: sticky;
     img{
         width: 10rem;
     }
-    nav {
-        
+    nav{
         ul{
         list-style: none;
         display: flex;
-        justify-content: space-between;
-        
         li{
-            margin: 30px;
-            
+            margin: 70px;
+            justify-content: center;
             a{
                 color: aqua;
                 background-color: $color-fuente;
                 text-decoration: none;
-                font-weight: 500;
+                font-size: x-large;
+                font-weight: 800;
                 font-family: $fuente-secu;
-                padding: 10px;
-                border-radius: 5px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            & a:hover{
+                background-color: aqua;
+                color: $color-fuente;
             }
         }
       }
     }
-}
-
-.cabecera a:hover{
-    background-color: aqua;
-    color: $color-fuente;
-}
-
-    
+  }
 }

@@ -1,12 +1,30 @@
 @import "variables.scss";
-.card-empresa{
+@media (min-width: 768px) {
+    .card-empresa{
     background-color: $color-principal;
+    display: flex;
+    margin: 10px;
+    .card{
+        margin: 0.5rem;
     .card-body{
         background-color: $color-principal;
         font-family: $fuente-secu;
-        color: rgba(0, 255, 255, 0.63);
-        .card-title{
-            font-weight: bolder;
-        }
+        color: #ffffff;
+        
+    .card-title{
+            text-decoration: underline;
+            background-color: $color-fuente;
+           
+            .card-text{
+                background-color: aqua !important;
+                    }
+                }
+            }
+        } 
+    }
+}
+@media (max-width: 768px) {
+    .card{
+        width: 19rem;
     }
 }
