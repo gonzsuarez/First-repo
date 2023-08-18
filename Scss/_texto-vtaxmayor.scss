@@ -1,8 +1,20 @@
-
-h4{   display: block;
+.container {
     background-image: url(../Imagrn/cabecera-carne-vacuna-argentina.jpg);
-    background-size: cover;
-    background-position: center center;    
-
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     font-size: xx-large;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: right;
+
+    .bottom-right {
+        margin: 0;
+        color: white;
     }
+}

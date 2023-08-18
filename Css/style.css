@@ -12,8 +12,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @media (max-width: 768px) {
   .cabecera {
     background-color: rgb(77, 77, 112);
@@ -87,7 +85,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   background-color: rgb(77, 77, 112);
 }
 
@@ -157,26 +155,36 @@ h6 img {
 @media (max-width: 768px) {
   .card {
     width: 19rem;
+    margin: 0.5rem;
+  }
+  .card .card-body {
+    background-color: rgb(77, 77, 112);
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+  }
+  .card .card-body .card-title {
+    text-decoration: underline;
+    background-color: rgb(218, 65, 19);
   }
 }
-.Items-en-vta {
-  background-image: url(../Imagrn/pasillo-de-un-supermercado_96b081e3_1280x720.jpg);
-  display: flex;
-}
-.Items-en-vta ul {
-  justify-content: space-between;
-}
-.Items-en-vta ul li {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-h4 {
-  display: block;
+.container {
   background-image: url(../Imagrn/cabecera-carne-vacuna-argentina.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
   font-size: xx-large;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+.container .bottom-right {
+  margin: 0;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
